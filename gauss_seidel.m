@@ -1,3 +1,4 @@
+% w is relaxation factor to accelarate result
 function gauss_seidel(A, b, w)
   n = size(A, 1);
   X = zeros(n, 1);
