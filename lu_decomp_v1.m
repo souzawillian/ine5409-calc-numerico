@@ -1,4 +1,4 @@
-function LU(A)
+function lu_decomp_v1(A)
   n = size(A, 1);  
   L = zeros(n);
   U = zeros(n);  
